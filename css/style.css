@@ -1,0 +1,228 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 2.5%;
+    font-size: 0.75rem;
+    background-color: lemonchiffon;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+}
+
+.masthead h1 {
+    font-size: 2.25rem;
+    color: white;
+    margin-bottom: 35%;
+    margin-top: -40%;
+    padding-left: 40%;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: green;
+}
+
+.masthead img {
+    width: 100%;
+    margin: 0;
+}
+
+.data p {
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-top: 5%;
+}
+
+.placeholder {
+    font-size: 1.25rem;
+    margin-top: 2%;
+}
+
+.wrapper .portfolio {
+    text-align: center;
+}
+
+.data .fig img {
+    width: 100%;
+}
+
+figcaption h2 {
+    font-size: 1.25rem;
+    font-family: 'Bree Serif', serif;
+}
+
+figure {
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.err {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.icons img {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.card-img-top {
+    padding: 3%;
+}
+
+footer {
+    background-color: green;
+}
+
+@media screen and (min-width: 36rem) {
+    body {
+        line-height: 1.6rem;
+        font-size: 1rem;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar ul li {
+        width: 49.5%;
+        display: inline-block;
+    }
+
+    .marginright,
+    .marginleft {
+        margin-right: 1.8%;
+    }
+
+    .navbar ul li a {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 2%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .subhead {
+        margin-top: 4.5%;
+        font-size: 1.5rem;
+    }
+
+    figure {
+        float: left;
+        width: 33%;
+        margin-right: 4%;
+        margin-bottom: 2%;
+        margin-top: 0;
+    }
+
+    .data p {
+        width: auto;
+        float: none;
+        font-size: 1.5rem;
+    }
+
+    .err{
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width: 80rem) {
+        body {
+            line-height: 1.5rem;
+            font-size: 1.25rem;
+            max-width: 120rem;
+            margin: auto;
+        }
+
+        .logo img {
+            width: 15%;
+            float: left;
+            margin-right: 0%;
+        }
+
+        .navbar {
+            width: 40%;
+            float: left;
+            margin-top: 6%;
+            margin-left: 0;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            width: 49.5%;
+        }
+
+        .navbar ul li a {
+            font-size: 2.5rem;
+        }
+
+        .data {
+            display: flex;
+            flex-flow: row|| wrap;
+            margin: 0;
+            width: 100%;
+        }
+
+        h2 {
+            width: 100%;
+            font-size: 3.25rem;
+            text-align: left;
+        }
+
+        h3 {
+            text-align: left;
+            font-size: 3.25rem;
+            padding-left: 1%;
+        }
+
+        .imagz {
+            width: 250%;
+            height: 250%;
+        }
+
+        .data p {
+            width: 60%;
+            font-size: 1.6rem;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 3%;
+        }
+
+        .err {
+            font-size: 1.6rem;
+        }
+    }
